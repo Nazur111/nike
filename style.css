@@ -1,0 +1,197 @@
+@import url(https://fonts.googleapis.com/css2?family=Playfair+Display:wght@100;200;300;400;500;600;800;900&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;600;800;900&display=swap);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: black;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: 360px;
+    height: 2000px;
+    color: #fff;
+    margin: 0 auto;
+}
+
+.main {
+    width: 360px;
+    height: 737px;
+    background-image: url(./assets/img/bg.jpg);
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 34px;
+}
+
+.logo__link {
+    padding-left: 18px;
+}
+
+.menu__link {
+    padding-right: 26px;
+    padding-top: 11px;
+}
+
+.content__title {
+    font-family: Playfair Display;
+    font-weight: 400;
+    font-size: 64px;
+    color: #FFF;
+    padding-left: 25px;
+    padding-right: 29px;
+}
+
+.content__title-2 {
+    font-family: Playfair Display;
+    font-size: 36px;
+    font-weight: 400;
+    color: #FFF;
+    padding-left: 28px;
+    padding-right: 61px;
+    margin-top: -17px;
+}
+
+.content__descr {
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 18px;
+    padding-left: 28px;
+    padding-right: 26px;
+    padding-top: 15px;
+    padding-bottom: 85px;
+    line-height: 21px;
+}
+
+.content__button {
+    border-radius: 10px;
+    background: #8E32C6;
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 400;
+    padding: 15px 53px 14px 53px;
+    margin-left: 60px;
+    margin-right: 61px;
+}
+
+.group {
+    height: 737px;
+    background: #021635;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.number-border,
+.number-main,
+.number-number,
+.text {
+    position: absolute;
+}
+
+.number-number {
+    top: 50px;
+    left: 20px;
+}
+
+.text {
+    width: 147.936px;
+    height: 82.308px;
+    flex-shrink: 0;
+    fill: #FFF;
+    top: 64px;
+    left: 110px;
+}
+
+.object {
+    height: 417px;
+    background-image: url(./assets/img/Group\ 7\ \(1\)\ 2.png);
+    position: relative;
+    overflow: hidden;
+}
+
+.object * {
+    position: absolute;
+
+
+}
+
+.nike {
+    width: 297px;
+    top: 21px;
+    left: 26px;
+
+}
+
+.palm {
+    width: 96px;
+    top: 164px;
+    left: 0;
+}
+
+.flower {
+    width: 162px;
+    top: 125px;
+    left: 220px;
+}
+
+.elements {
+    left: 75px;
+    top: 50px;
+}
+
+
+.text-first {
+    width: 110px;
+    height: 13px;
+    flex-shrink: 0;
+    color: #FFF;
+    font-family: "Playfair Display";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position: absolute;
+    margin-top: 78px;
+    bottom: 33%;
+    margin-left: 81px;
+
+}
+
+.text-second {
+    width: 293px;
+    height: 32px;
+    flex-shrink: 0;
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position: absolute;
+    bottom: 31px;
+    margin-left: 37px;
+    margin-top: 354px;
+}
+
+.text {
+    width: 305px;
+    height: 37px;
+    flex-shrink: 0;
+}
+
+
+
+
